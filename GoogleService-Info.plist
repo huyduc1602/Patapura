@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>923272571088-8d2a8lva1l151524nl1hdhdne1s50s63.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.923272571088-8d2a8lva1l151524nl1hdhdne1s50s63</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0GE_Auoop66wBm2qNQM7J78Jq6n-ymbw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>923272571088</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.patapura.app</string>
+	<key>PROJECT_ID</key>
+	<string>ga4-1ccca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ga4-1ccca.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:923272571088:ios:6925f32ddafaf8b8c516d5</string>
+</dict>
+</plist>

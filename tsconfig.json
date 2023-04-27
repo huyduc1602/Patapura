@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "target": "esnext",
+  "resolveJsonModule": true,
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app.config.js"]
+}

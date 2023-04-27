@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "923272571088",
+    "project_id": "ga4-1ccca",
+    "storage_bucket": "ga4-1ccca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923272571088:android:015ee2b242010398c516d5",
+        "android_client_info": {
+          "package_name": "com.patapura.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923272571088-l1tch0tt8699ujmr3csuv3rs5l0jt868.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1NUMF3Xzwqjh0vN502Nea7NCKeRSld2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923272571088-l1tch0tt8699ujmr3csuv3rs5l0jt868.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "923272571088-8d2a8lva1l151524nl1hdhdne1s50s63.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.patapura.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
