@@ -31,7 +31,9 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       resizeMode: 'contain',
       backgroundColor: '#ffffff',
     },
-    runtimeVersion: "1.0.9",
+    runtimeVersion: {
+      "policy": "sdkVersion"
+    },
     updates: {
       fallbackToCacheTimeout: 0,
       url: "https://u.expo.dev/bd59ac4b-7f51-46f3-bec1-74a382e1b493"

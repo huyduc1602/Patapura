@@ -46,7 +46,7 @@ const buildInjectedScriptBeforeLoaded = (token: string) => `
 
       if (location.host === '${WEB_HOST}' && (url.match(/^\\/\\w/i) || url.includes('${WEB_HOST}'))) {
         this.setRequestHeader('Authorization', 'Bearer ${token}');
-        this.setRequestHeader('X-Request-App', '${APP_KEY}');
+        this.setRequestHeader('X-Request-App', 'patapura-app');
         this.setRequestHeader('X-Request-Token', '${TOKEN_SECRET}');
       }
     };
@@ -131,7 +131,7 @@ const PAWebView = ({
     const now = Date.now();
     const refreshable = (lastRefresh.current + 3600000) < now; // 1時間経過
 
-    if (refresh && refreshable && ! isLock.current) {
+    if (refresh && refreshable && !isLock.current) {
       isLock.current = true;
 
       await refresh();
@@ -229,7 +229,7 @@ const PAWebView = ({
 
     return !needLogin || token ? (
       <WebView
-        key={`${currectUri}`}
+        // key={`${currectUri}`}
         ref={_webviewRef}
         style={styles.webview}
         injectedJavaScript={_injectedScript}
